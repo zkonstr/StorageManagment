@@ -61,5 +61,10 @@ namespace StorageManagment
         {
 
         }
+
+        private void listView1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
