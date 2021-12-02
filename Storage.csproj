@@ -74,12 +74,15 @@
         <Compile Include="Actors\Finansist.cs" />
         <Compile Include="Actors\OrderManager.cs" />
         <Compile Include="Actors\StoreKeeper.cs" />
+        <Compile Include="Databases\IStoreDao.cs" />
+        <Compile Include="Databases\StoreDb.cs" />
+        <Compile Include="Databases\UserDB.cs" />
         <Compile Include="OrderSystem\Cart.cs" />
+        <Compile Include="OrderSystem\Order.cs" />
         <Compile Include="OrderSystem\Product.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="RegNLog\Registration.cs" />
-        <Compile Include="RegNLog\UserDB.cs" />
         <Compile Include="WinFormsStorageManagment\ClientWindow.cs" />
         <Compile Include="WinFormsStorageManagment\ClientWindow.Designer.cs" />
         <Compile Include="WinFormsStorageManagment\IndexWindow.cs" />

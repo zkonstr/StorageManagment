@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Storage.RegNLog;
 using Storage.WinFormsStorageManagment;
+using Storage.Actors;
 
 namespace StorageManagment
 {
@@ -31,7 +32,7 @@ namespace StorageManagment
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //new Registration();            
+            new Client().DoRegistration();
             RegWindow frm = new RegWindow();
             frm.Show();
             // do smth with main form
@@ -40,6 +41,7 @@ namespace StorageManagment
 
         private void button2_Click(object sender, EventArgs e)
         {
+            new Client().DoLogin();
             LoginWindow frm = new LoginWindow();
             frm.Show();
             // do smth with main form

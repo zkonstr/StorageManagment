@@ -1,21 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Storage.RegNLog;
+using Storage.Databases;
+using StorageManagment;
 
-namespace StorageManagment
+namespace Storage
 {
     static class Program
     {
+        private const string EnvDbTableName = "DB_TABLE_NAME";
+        private const string EnvDbLocation = "DB_LOCATION";
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
         [STAThread]
         static void Main()
         {
-            new UserDb("UserDataBase");
+            
+            var connection = new StoreDb(Environment.GetEnvironmentVariable(EnvDbTableName));
+            connection.Connect(Environment.GetEnvironmentVariable(EnvDbLocation));
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new IndexWindow());

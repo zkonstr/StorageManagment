@@ -90,7 +90,7 @@ namespace Storage.WinFormsStorageManagment
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.03526F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 77.96474F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 185F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 186F));
             this.tableLayoutPanel1.Controls.Add(this.CategoriesTree, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.groupBox1, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.Orders, 2, 1);
@@ -121,7 +121,7 @@ namespace Storage.WinFormsStorageManagment
             this.groupBox1.Location = new System.Drawing.Point(241, 3);
             this.groupBox1.Name = "groupBox1";
             this.tableLayoutPanel1.SetRowSpan(this.groupBox1, 2);
-            this.groupBox1.Size = new System.Drawing.Size(839, 659);
+            this.groupBox1.Size = new System.Drawing.Size(838, 659);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             // 
@@ -130,7 +130,7 @@ namespace Storage.WinFormsStorageManagment
             this.tableLayoutPanel3.ColumnCount = 3;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 78.39335F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.60665F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 464F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 465F));
             this.tableLayoutPanel3.Controls.Add(this.textBox2, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.button2, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.flowLayoutPanel1, 2, 0);
@@ -141,7 +141,7 @@ namespace Storage.WinFormsStorageManagment
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.858934F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 95.14107F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(833, 638);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(832, 638);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
             // textBox2
@@ -150,13 +150,13 @@ namespace Storage.WinFormsStorageManagment
             this.textBox2.Location = new System.Drawing.Point(3, 3);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(283, 24);
+            this.textBox2.Size = new System.Drawing.Size(281, 24);
             this.textBox2.TabIndex = 0;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(292, 3);
+            this.button2.Location = new System.Drawing.Point(290, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(73, 23);
             this.button2.TabIndex = 1;
@@ -168,10 +168,10 @@ namespace Storage.WinFormsStorageManagment
             this.flowLayoutPanel1.Controls.Add(this.AtoZcomboBox);
             this.flowLayoutPanel1.Controls.Add(this.HighLowComboBox);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(371, 3);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(369, 3);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(459, 24);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(460, 24);
             this.flowLayoutPanel1.TabIndex = 2;
             this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
@@ -217,7 +217,7 @@ namespace Storage.WinFormsStorageManagment
             this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {listViewItem1, listViewItem2});
             this.listView2.Location = new System.Drawing.Point(3, 33);
             this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(827, 602);
+            this.listView2.Size = new System.Drawing.Size(826, 602);
             this.listView2.TabIndex = 3;
             this.listView2.UseCompatibleStateImageBehavior = false;
             this.listView2.SelectedIndexChanged += new System.EventHandler(this.listView2_SelectedIndexChanged);
@@ -226,9 +226,9 @@ namespace Storage.WinFormsStorageManagment
             // 
             this.Orders.Controls.Add(this.listBox1);
             this.Orders.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Orders.Location = new System.Drawing.Point(1086, 335);
+            this.Orders.Location = new System.Drawing.Point(1085, 335);
             this.Orders.Name = "Orders";
-            this.Orders.Size = new System.Drawing.Size(180, 327);
+            this.Orders.Size = new System.Drawing.Size(181, 327);
             this.Orders.TabIndex = 4;
             this.Orders.TabStop = false;
             this.Orders.Text = "Your orders";
@@ -240,16 +240,16 @@ namespace Storage.WinFormsStorageManagment
             this.listBox1.ItemHeight = 16;
             this.listBox1.Location = new System.Drawing.Point(3, 18);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(174, 306);
+            this.listBox1.Size = new System.Drawing.Size(175, 306);
             this.listBox1.TabIndex = 0;
             // 
             // Cart
             // 
             this.Cart.Controls.Add(this.tableLayoutPanel2);
             this.Cart.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Cart.Location = new System.Drawing.Point(1086, 3);
+            this.Cart.Location = new System.Drawing.Point(1085, 3);
             this.Cart.Name = "Cart";
-            this.Cart.Size = new System.Drawing.Size(180, 326);
+            this.Cart.Size = new System.Drawing.Size(181, 326);
             this.Cart.TabIndex = 3;
             this.Cart.TabStop = false;
             this.Cart.Text = "Cart";
@@ -270,7 +270,7 @@ namespace Storage.WinFormsStorageManagment
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 89.67972F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.32028F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(174, 305);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(175, 305);
             this.tableLayoutPanel2.TabIndex = 0;
             this.tableLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel2_Paint);
             // 
@@ -280,7 +280,7 @@ namespace Storage.WinFormsStorageManagment
             this.textBox1.Location = new System.Drawing.Point(74, 252);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(97, 22);
+            this.textBox1.Size = new System.Drawing.Size(98, 22);
             this.textBox1.TabIndex = 0;
             // 
             // label1
@@ -299,7 +299,7 @@ namespace Storage.WinFormsStorageManagment
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button1.Location = new System.Drawing.Point(3, 280);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(168, 22);
+            this.button1.Size = new System.Drawing.Size(169, 22);
             this.button1.TabIndex = 2;
             this.button1.Text = "Checkout";
             this.button1.UseVisualStyleBackColor = true;
@@ -312,7 +312,7 @@ namespace Storage.WinFormsStorageManagment
             this.CartField.HideSelection = false;
             this.CartField.Location = new System.Drawing.Point(3, 3);
             this.CartField.Name = "CartField";
-            this.CartField.Size = new System.Drawing.Size(168, 243);
+            this.CartField.Size = new System.Drawing.Size(169, 243);
             this.CartField.TabIndex = 3;
             this.CartField.UseCompatibleStateImageBehavior = false;
             this.CartField.View = System.Windows.Forms.View.List;
@@ -342,7 +342,7 @@ namespace Storage.WinFormsStorageManagment
 
         #endregion
 
-        private System.Windows.Forms.TreeView CategoriesTree;
+        public System.Windows.Forms.TreeView CategoriesTree;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox Orders;
