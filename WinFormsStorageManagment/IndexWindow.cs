@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Storage.RegNLog;
+using Storage.WinFormsStorageManagment;
 
 namespace StorageManagment
 {
@@ -19,7 +21,7 @@ namespace StorageManagment
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
        
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
@@ -29,6 +31,7 @@ namespace StorageManagment
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //new Registration();            
             RegWindow frm = new RegWindow();
             frm.Show();
             // do smth with main form

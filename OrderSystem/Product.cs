@@ -9,7 +9,7 @@
             Name = name;
             Cost = cost;
         }
-
+    
         public Product()
         {
         }

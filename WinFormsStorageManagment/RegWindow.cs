@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using Storage.RegNLog;
+using StorageManagment;
 
-namespace StorageManagment
+namespace Storage.WinFormsStorageManagment
 {
     public partial class RegWindow : Form
     {
@@ -99,6 +94,7 @@ namespace StorageManagment
 
         private void Button1_Click(object sender, EventArgs e)
         {
+            //new Registration().DoRegister();
             LoginWindow frm = new LoginWindow();
             frm.Show();
             // do smth with main form

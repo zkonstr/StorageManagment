@@ -1,5 +1,5 @@
 ﻿
-namespace StorageManagment
+namespace Storage.WinFormsStorageManagment
 {
     partial class ClientWindow
     {
