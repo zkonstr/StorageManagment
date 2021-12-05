@@ -1,8 +1,6 @@
-﻿using System.Collections.Generic;
-using System.Data.SQLite;
-using static System.Data.SqlClient.SqlConnection;
+﻿using System.Data.SQLite;
 
-namespace Storage.RegNLog
+namespace Storage.Databases
 {
     public class UserDb
     {
@@ -20,7 +18,7 @@ namespace Storage.RegNLog
             _connection.Open();
             var cmd = _connection.CreateCommand();
             cmd.CommandText =
-                $"CREATE TABLE IF NOT EXISTS {_tableName}(ID INTEGER PRIMARY KEY AUTOINCREMENT, NAME TEXT, COST REAL)";
+                $"CREATE TABLE IF NOT EXISTS {_tableName}(ID INTEGER PRIMARY KEY AUTOINCREMENT, NAME TEXT, ROLE TEXT)";
             //TODO make DB great again
             cmd.ExecuteScalar();
             return true;

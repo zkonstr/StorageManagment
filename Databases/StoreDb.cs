@@ -88,5 +88,13 @@ namespace Storage.Databases
             cmd.CommandText = $"DELETE * FROM {_tableName} WHERE ID = {id};";
             return cmd.ExecuteScalar() != null;
         }
+        private static Dictionary<int, Product> GetProductsFromDb(StoreDb connection)
+        {
+            var productsArray = connection.ReadAllProducts();
+            var products = new Dictionary<int, Product>();
+            foreach (var product in productsArray) products[product.Id] = product;
+
+            return products;
+        }
     }
 }

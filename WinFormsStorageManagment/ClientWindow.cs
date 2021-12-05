@@ -59,5 +59,12 @@ namespace Storage.WinFormsStorageManagment
         {
             throw new System.NotImplementedException();
         }
+
+        private void CategoriesTree_AfterCheck(object sender, TreeViewEventArgs e)
+        {
+            throw new System.NotImplementedException();
+            //TODO DB
+            
+        }
     }
 }

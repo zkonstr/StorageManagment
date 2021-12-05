@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using Storage.Databases;
+
 namespace Storage.RegNLog
 {
     public class Registration
