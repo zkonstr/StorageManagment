@@ -106,8 +106,22 @@ namespace Storage.WinFormsStorageManagment
         {
 
             LoginWindow login = LoginWindow.getInstanse();
+            login.MdiParent = this;
             login.Show();
 
+        }
+
+        private void stockListToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void stockToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            StoreWindow store = StoreWindow.getInstanse();
+            store.MdiParent = this;
+            store.Dock = DockStyle.Fill;
+            store.Show();
         }
     }
 }

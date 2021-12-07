@@ -106,6 +106,7 @@ namespace Storage.WinFormsStorageManagment
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "LoginWindow";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "LoginWindow";
             this.ResumeLayout(false);
             this.PerformLayout();

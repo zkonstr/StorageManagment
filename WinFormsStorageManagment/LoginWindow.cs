@@ -33,11 +33,15 @@ namespace Storage.WinFormsStorageManagment
             sda.Fill(dt);
             if (dt.Rows.Count == 1)
             {
+
                 this.Hide();
             }
             else
             {
                 MessageBox.Show("Invalid username and/or password. Please try again", "Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
+                textBox1.Text = "";
+                textBox2.Clear();
+                textBox1.Focus();
             }
         }
 
