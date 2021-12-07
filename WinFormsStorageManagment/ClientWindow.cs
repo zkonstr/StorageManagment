@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 
 namespace Storage.WinFormsStorageManagment
@@ -9,6 +10,7 @@ namespace Storage.WinFormsStorageManagment
         {
             InitializeComponent();
         }
+        
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -65,6 +67,24 @@ namespace Storage.WinFormsStorageManagment
             throw new System.NotImplementedException();
             //TODO DB
             
+        }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // ClientWindow
+            // 
+            this.ClientSize = new System.Drawing.Size(922, 383);
+            this.Name = "ClientWindow";
+            this.Load += new System.EventHandler(this.ClientWindow_Load);
+            this.ResumeLayout(false);
+
+        }
+
+        private void ClientWindow_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

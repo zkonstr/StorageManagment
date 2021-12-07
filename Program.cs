@@ -19,10 +19,10 @@ namespace Storage
         [STAThread]
         static void Main()
         {
-            var storeConnection = new StoreDb(Environment.GetEnvironmentVariable(EnvStDbTableName));
-            storeConnection.Connect(Environment.GetEnvironmentVariable(EnvStDbLocation));
-            var userDbConnection = new UserDb(Environment.GetEnvironmentVariable(EnvUsDbTableName));
-            userDbConnection.Connect(Environment.GetEnvironmentVariable(EnvUsDbLocation));
+            var storeConnection = new StoreDb("store");
+            storeConnection.Connect("store.sqlite");
+            var userDbConnection = new UserDb("userDb");
+            userDbConnection.Connect("userDb.sqlite");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new IndexWindow());
