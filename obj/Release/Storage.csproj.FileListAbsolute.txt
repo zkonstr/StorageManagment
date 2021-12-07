@@ -1,0 +1,16 @@
+C:\Users\zkons\RiderProjects\StorageM\bin\Release\Storage.exe.config
+C:\Users\zkons\RiderProjects\StorageM\bin\Release\Storage.exe
+C:\Users\zkons\RiderProjects\StorageM\bin\Release\Storage.pdb
+C:\Users\zkons\RiderProjects\StorageM\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\zkons\RiderProjects\StorageM\bin\Release\EntityFramework.dll
+C:\Users\zkons\RiderProjects\StorageM\bin\Release\System.Data.SQLite.dll
+C:\Users\zkons\RiderProjects\StorageM\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\zkons\RiderProjects\StorageM\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\zkons\RiderProjects\StorageM\obj\Release\Storage.csproj.AssemblyReference.cache
+C:\Users\zkons\RiderProjects\StorageM\obj\Release\Storage.Properties.Resources.resources
+C:\Users\zkons\RiderProjects\StorageM\obj\Release\Storage.WinFormsStorageManagment.MainWindow.resources
+C:\Users\zkons\RiderProjects\StorageM\obj\Release\Storage.csproj.GenerateResource.cache
+C:\Users\zkons\RiderProjects\StorageM\obj\Release\Storage.csproj.CoreCompileInputs.cache
+C:\Users\zkons\RiderProjects\StorageM\obj\Release\Storage.csproj.CopyComplete
+C:\Users\zkons\RiderProjects\StorageM\obj\Release\Storage.exe
+C:\Users\zkons\RiderProjects\StorageM\obj\Release\Storage.pdb

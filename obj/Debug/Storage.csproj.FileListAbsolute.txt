@@ -17,3 +17,4 @@ C:\Users\zkons\RiderProjects\StorageM\bin\Debug\System.Data.SQLite.dll
 C:\Users\zkons\RiderProjects\StorageM\bin\Debug\System.Data.SQLite.EF6.dll
 C:\Users\zkons\RiderProjects\StorageM\bin\Debug\System.Data.SQLite.Linq.dll
 C:\Users\zkons\RiderProjects\StorageM\obj\Debug\Storage.csproj.CopyComplete
+C:\Users\zkons\RiderProjects\StorageM\obj\Debug\Storage.WinFormsStorageManagment.MainWindow.resources
