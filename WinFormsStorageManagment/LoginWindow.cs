@@ -27,8 +27,8 @@ namespace Storage.WinFormsStorageManagment
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string cn = "";
-            SqlDataAdapter sda = new SqlDataAdapter(@"SELECT * FROM [].[].[] Where UserName='"+ textBox1.Text +"' and Password'"+ textBox2.Text +"'", cn);
+            string cn = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\zkons\Documents\Storage.mdf;Integrated Security=True;Connect Timeout=30";
+            SqlDataAdapter sda = new SqlDataAdapter(@"SELECT * FROM Users Where CONVERT(VARCHAR, UserName) = '" + textBox1.Text + "' and CONVERT(VARCHAR, Password) = '" + textBox2.Text +"'", cn);
             DataTable dt = new DataTable();
             sda.Fill(dt);
             if (dt.Rows.Count == 1)
@@ -49,6 +49,14 @@ namespace Storage.WinFormsStorageManagment
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string cn = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\zkons\Documents\Storage.mdf;Integrated Security=True;Connect Timeout=30";
+            SqlDataAdapter sda = new SqlDataAdapter(@"INSERT INTO Users(UserName,Password,Role) VALUES('" + textBox1.Text + "','" + textBox2.Text + "','Client');", cn);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
         }
     }
 }

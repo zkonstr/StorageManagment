@@ -14,3 +14,4 @@ C:\Users\zkons\RiderProjects\StorageM\obj\NewDebug\Storage.csproj.CopyComplete
 C:\Users\zkons\RiderProjects\StorageM\obj\NewDebug\Storage.exe
 C:\Users\zkons\RiderProjects\StorageM\obj\NewDebug\Storage.pdb
 C:\Users\zkons\RiderProjects\StorageM\obj\NewDebug\Storage.WinFormsStorageManagment.LoginWindow.resources
+C:\Users\zkons\RiderProjects\StorageM\obj\NewDebug\Storage.csproj.AssemblyReference.cache
