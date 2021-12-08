@@ -35,9 +35,11 @@ namespace Storage.WinFormsStorageManagment
             this.stockToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.proToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.stockListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.stockToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -51,7 +53,8 @@ namespace Storage.WinFormsStorageManagment
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.stockToolStripMenuItem,
             this.stockToolStripMenuItem1,
-            this.reportToolStripMenuItem});
+            this.reportToolStripMenuItem,
+            this.stockToolStripMenuItem2});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Size = new System.Drawing.Size(843, 28);
@@ -74,8 +77,7 @@ namespace Storage.WinFormsStorageManagment
             // reportToolStripMenuItem
             // 
             this.reportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.proToolStripMenuItem,
-            this.stockListToolStripMenuItem});
+            this.proToolStripMenuItem});
             this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
             this.reportToolStripMenuItem.Size = new System.Drawing.Size(67, 24);
             this.reportToolStripMenuItem.Text = "Orders";
@@ -83,21 +85,23 @@ namespace Storage.WinFormsStorageManagment
             // proToolStripMenuItem
             // 
             this.proToolStripMenuItem.Name = "proToolStripMenuItem";
-            this.proToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.proToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
             this.proToolStripMenuItem.Text = "Product List";
             // 
-            // stockListToolStripMenuItem
+            // stockToolStripMenuItem2
             // 
-            this.stockListToolStripMenuItem.Name = "stockListToolStripMenuItem";
-            this.stockListToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.stockListToolStripMenuItem.Text = "Stock List";
-            this.stockListToolStripMenuItem.Click += new System.EventHandler(this.stockListToolStripMenuItem_Click);
+            this.stockToolStripMenuItem2.Enabled = false;
+            this.stockToolStripMenuItem2.Name = "stockToolStripMenuItem2";
+            this.stockToolStripMenuItem2.Size = new System.Drawing.Size(59, 24);
+            this.stockToolStripMenuItem2.Text = "Stock";
             // 
             // statusStrip
             // 
             this.statusStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel});
+            this.toolStripStatusLabel,
+            this.toolStripStatusLabel1,
+            this.toolStripStatusLabel2});
             this.statusStrip.Location = new System.Drawing.Point(0, 532);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
@@ -110,6 +114,20 @@ namespace Storage.WinFormsStorageManagment
             this.toolStripStatusLabel.Name = "toolStripStatusLabel";
             this.toolStripStatusLabel.Size = new System.Drawing.Size(49, 20);
             this.toolStripStatusLabel.Text = "Status";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(41, 20);
+            this.toolStripStatusLabel1.Text = "Date";
+            this.toolStripStatusLabel1.Click += new System.EventHandler(this.toolStripStatusLabel1_Click);
+            // 
+            // toolStripStatusLabel2
+            // 
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(42, 20);
+            this.toolStripStatusLabel2.Text = "Time";
             // 
             // button1
             // 
@@ -167,10 +185,12 @@ namespace Storage.WinFormsStorageManagment
         private System.Windows.Forms.ToolStripMenuItem stockToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reportToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem proToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem stockListToolStripMenuItem;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ToolStripMenuItem stockToolStripMenuItem1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ToolStripMenuItem stockToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
     }
 }
 

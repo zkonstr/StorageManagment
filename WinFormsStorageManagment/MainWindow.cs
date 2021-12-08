@@ -98,7 +98,6 @@ namespace Storage.WinFormsStorageManagment
 
         private void MainWindow_Load(object sender, EventArgs e)
         {
-            
 
         }
 
@@ -122,6 +121,11 @@ namespace Storage.WinFormsStorageManagment
             store.MdiParent = this;
             store.Dock = DockStyle.Fill;
             store.Show();
+        }
+
+        private void toolStripStatusLabel1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

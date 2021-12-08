@@ -16,3 +16,5 @@ C:\Users\zkons\RiderProjects\StorageM\obj\NewDebug\Storage.pdb
 C:\Users\zkons\RiderProjects\StorageM\obj\NewDebug\Storage.WinFormsStorageManagment.LoginWindow.resources
 C:\Users\zkons\RiderProjects\StorageM\obj\NewDebug\Storage.csproj.AssemblyReference.cache
 C:\Users\zkons\RiderProjects\StorageM\obj\NewDebug\Storage.WinFormsStorageManagment.StoreWindow.resources
+C:\Users\zkons\RiderProjects\StorageM\bin\NewDebug\Storage.mdf
+C:\Users\zkons\RiderProjects\StorageM\bin\NewDebug\Storage_log.ldf
