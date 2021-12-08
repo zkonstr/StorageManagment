@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "58Xbi+yN21t8mTLVe55kPz+I+azpmNMFWMVLVq0IYc3Jxpp51Si6G5FWufG+5SBdIMr2v0CHAq0de2O/cW/ekQ==",
+  "dgSpecHash": "9KvtVIdlREZZBdJhziKlTsSBrhPQdzMKyizWkiet5oECSe5Yossc3WJrZOBjqNzmv7/3WzjMJ2rdDEC1dshoRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zkons\\RiderProjects\\StorageM\\Storage.csproj",
+  "projectFilePath": "E:\\Work\\C#\\Storage.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\zkons\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
-    "C:\\Users\\zkons\\.nuget\\packages\\stub.system.data.sqlite.core.netframework\\1.0.115.5\\stub.system.data.sqlite.core.netframework.1.0.115.5.nupkg.sha512",
-    "C:\\Users\\zkons\\.nuget\\packages\\system.data.sqlite\\1.0.115.5\\system.data.sqlite.1.0.115.5.nupkg.sha512",
-    "C:\\Users\\zkons\\.nuget\\packages\\system.data.sqlite.core\\1.0.115.5\\system.data.sqlite.core.1.0.115.5.nupkg.sha512",
-    "C:\\Users\\zkons\\.nuget\\packages\\system.data.sqlite.core.msil\\1.0.115.5\\system.data.sqlite.core.msil.1.0.115.5.nupkg.sha512",
-    "C:\\Users\\zkons\\.nuget\\packages\\system.data.sqlite.ef6\\1.0.115.5\\system.data.sqlite.ef6.1.0.115.5.nupkg.sha512",
-    "C:\\Users\\zkons\\.nuget\\packages\\system.data.sqlite.linq\\1.0.115.5\\system.data.sqlite.linq.1.0.115.5.nupkg.sha512"
+    "C:\\Users\\emura\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\emura\\.nuget\\packages\\stub.system.data.sqlite.core.netframework\\1.0.115.5\\stub.system.data.sqlite.core.netframework.1.0.115.5.nupkg.sha512",
+    "C:\\Users\\emura\\.nuget\\packages\\system.data.sqlite\\1.0.115.5\\system.data.sqlite.1.0.115.5.nupkg.sha512",
+    "C:\\Users\\emura\\.nuget\\packages\\system.data.sqlite.core\\1.0.115.5\\system.data.sqlite.core.1.0.115.5.nupkg.sha512",
+    "C:\\Users\\emura\\.nuget\\packages\\system.data.sqlite.core.msil\\1.0.115.5\\system.data.sqlite.core.msil.1.0.115.5.nupkg.sha512",
+    "C:\\Users\\emura\\.nuget\\packages\\system.data.sqlite.ef6\\1.0.115.5\\system.data.sqlite.ef6.1.0.115.5.nupkg.sha512",
+    "C:\\Users\\emura\\.nuget\\packages\\system.data.sqlite.linq\\1.0.115.5\\system.data.sqlite.linq.1.0.115.5.nupkg.sha512"
   ],
   "logs": []
 }

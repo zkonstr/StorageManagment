@@ -1,38 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zkons\\RiderProjects\\StorageM\\Storage.csproj": {}
+    "E:\\Work\\C#\\Storage.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zkons\\RiderProjects\\StorageM\\Storage.csproj": {
+    "E:\\Work\\C#\\Storage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zkons\\RiderProjects\\StorageM\\Storage.csproj",
+        "projectUniqueName": "E:\\Work\\C#\\Storage.csproj",
         "projectName": "Storage",
-        "projectPath": "C:\\Users\\zkons\\RiderProjects\\StorageM\\Storage.csproj",
-        "packagesPath": "C:\\Users\\zkons\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zkons\\RiderProjects\\StorageM\\obj\\",
+        "projectPath": "E:\\Work\\C#\\Storage.csproj",
+        "packagesPath": "C:\\Users\\emura\\.nuget\\packages\\",
+        "outputPath": "E:\\Work\\C#\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\zkons\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\emura\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net46"
+          "net48"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net46": {
+          "net48": {
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "net46": {
+        "net48": {
           "dependencies": {
             "EntityFramework": {
               "target": "Package",
