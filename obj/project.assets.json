@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.8": {
+    ".NETFramework,Version=v4.6.1": {
       "EntityFramework/6.4.4": {
         "type": "package",
         "frameworkAssemblies": [
@@ -77,7 +77,7 @@
         }
       }
     },
-    ".NETFramework,Version=v4.8/win": {
+    ".NETFramework,Version=v4.6.1/win": {
       "EntityFramework/6.4.4": {
         "type": "package",
         "frameworkAssemblies": [
@@ -153,7 +153,7 @@
         }
       }
     },
-    ".NETFramework,Version=v4.8/win-x64": {
+    ".NETFramework,Version=v4.6.1/win-x64": {
       "EntityFramework/6.4.4": {
         "type": "package",
         "frameworkAssemblies": [
@@ -229,7 +229,7 @@
         }
       }
     },
-    ".NETFramework,Version=v4.8/win-x86": {
+    ".NETFramework,Version=v4.6.1/win-x86": {
       "EntityFramework/6.4.4": {
         "type": "package",
         "frameworkAssemblies": [
@@ -522,7 +522,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.8": [
+    ".NETFramework,Version=v4.6.1": [
       "EntityFramework >= 6.4.4",
       "Stub.System.Data.SQLite.Core.NetFramework >= 1.0.115.5",
       "System.Data.SQLite >= 1.0.115.5",
@@ -533,37 +533,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\emura\\.nuget\\packages\\": {}
+    "C:\\Users\\zkons\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Work\\C#\\Storage.csproj",
+      "projectUniqueName": "C:\\Users\\zkons\\RiderProjects\\StorageM\\Storage.csproj",
       "projectName": "Storage",
-      "projectPath": "E:\\Work\\C#\\Storage.csproj",
-      "packagesPath": "C:\\Users\\emura\\.nuget\\packages\\",
-      "outputPath": "E:\\Work\\C#\\obj\\",
+      "projectPath": "C:\\Users\\zkons\\RiderProjects\\StorageM\\Storage.csproj",
+      "packagesPath": "C:\\Users\\zkons\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zkons\\RiderProjects\\StorageM\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\emura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zkons\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net48"
+        "net461"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net48": {
+        "net461": {
           "projectReferences": {}
         }
       }
     },
     "frameworks": {
-      "net48": {
+      "net461": {
         "dependencies": {
           "EntityFramework": {
             "target": "Package",
