@@ -7,10 +7,7 @@ C:\Users\zkons\RiderProjects\StorageM\obj\Debug\Storage.csproj.GenerateResource.
 C:\Users\zkons\RiderProjects\StorageM\obj\Debug\Storage.csproj.CoreCompileInputs.cache
 C:\Users\zkons\RiderProjects\StorageM\obj\Debug\Storage.exe
 C:\Users\zkons\RiderProjects\StorageM\obj\Debug\Storage.pdb
-C:\Users\zkons\RiderProjects\StorageM\obj\Debug\Storage.WinFormsStorageManagment.ClientWindow.resources
-C:\Users\zkons\RiderProjects\StorageM\obj\Debug\Storage.WinFormsStorageManagment.IndexWindow.resources
 C:\Users\zkons\RiderProjects\StorageM\obj\Debug\Storage.WinFormsStorageManagment.LoginWindow.resources
-C:\Users\zkons\RiderProjects\StorageM\obj\Debug\Storage.WinFormsStorageManagment.RegWindow.resources
 C:\Users\zkons\RiderProjects\StorageM\bin\Debug\EntityFramework.dll
 C:\Users\zkons\RiderProjects\StorageM\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\zkons\RiderProjects\StorageM\bin\Debug\System.Data.SQLite.dll
@@ -18,3 +15,6 @@ C:\Users\zkons\RiderProjects\StorageM\bin\Debug\System.Data.SQLite.EF6.dll
 C:\Users\zkons\RiderProjects\StorageM\bin\Debug\System.Data.SQLite.Linq.dll
 C:\Users\zkons\RiderProjects\StorageM\obj\Debug\Storage.csproj.CopyComplete
 C:\Users\zkons\RiderProjects\StorageM\obj\Debug\Storage.WinFormsStorageManagment.MainWindow.resources
+C:\Users\zkons\RiderProjects\StorageM\bin\Debug\Storage.mdf
+C:\Users\zkons\RiderProjects\StorageM\bin\Debug\Storage_log.ldf
+C:\Users\zkons\RiderProjects\StorageM\obj\Debug\Storage.WinFormsStorageManagment.StoreWindow.resources
